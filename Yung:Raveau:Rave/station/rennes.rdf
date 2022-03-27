@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://www.owl-ontologies.com/unnamed.">
+
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/88a8871cd455b991aae541e2d60ebdab34840e3e">
+    <ns0:owlfields>
+      <rdf:Description>
+        <ns0:owlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Musée Beaux-Arts</ns0:owlName>
+        <ns0:owlavailable_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns0:owlavailable_place>
+        <ns0:owlcapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ns0:owlcapacity>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8109601E1</ns0:owlcoordonnees>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.67408E0</ns0:owlcoordonnees>
+        <ns0:owlid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5510</ns0:owlid>
+        <ns0:owlstatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En fonctionnement</ns0:owlstatus>
+      </rdf:Description>
+    </ns0:owlfields>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/77cac0a1ecd7f2af56c8668b201afe2a20e1c6bb">
+    <ns0:owlfields>
+      <rdf:Description>
+        <ns0:owlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plaine de Baud</ns0:owlName>
+        <ns0:owlavailable_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns0:owlavailable_place>
+        <ns0:owlcapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns0:owlcapacity>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8112461E1</ns0:owlcoordonnees>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.643674E0</ns0:owlcoordonnees>
+        <ns0:owlid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5546</ns0:owlid>
+        <ns0:owlstatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En fonctionnement</ns0:owlstatus>
+      </rdf:Description>
+    </ns0:owlfields>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/bd0f83abcec2974fda4a9be7b78f4bfbb3af4b27">
+    <ns0:owlfields>
+      <rdf:Description>
+        <ns0:owlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brest - Verdun</ns0:owlName>
+        <ns0:owlavailable_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns0:owlavailable_place>
+        <ns0:owlcapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns0:owlcapacity>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8113009E1</ns0:owlcoordonnees>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.693264E0</ns0:owlcoordonnees>
+        <ns0:owlid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5534</ns0:owlid>
+        <ns0:owlstatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En fonctionnement</ns0:owlstatus>
+      </rdf:Description>
+    </ns0:owlfields>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/bc23b982c96a853bb90665c1d574e7d9c204daed">
+    <ns0:owlfields>
+      <rdf:Description>
+        <ns0:owlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marbeuf</ns0:owlName>
+        <ns0:owlavailable_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns0:owlavailable_place>
+        <ns0:owlcapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns0:owlcapacity>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8111749E1</ns0:owlcoordonnees>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.702077E0</ns0:owlcoordonnees>
+        <ns0:owlid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5538</ns0:owlid>
+        <ns0:owlstatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En fonctionnement</ns0:owlstatus>
+      </rdf:Description>
+    </ns0:owlfields>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/f31381b27f50bb4bc23672b3ea5cc7abfca309c3">
+    <ns0:owlfields>
+      <rdf:Description>
+        <ns0:owlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gros-Chêne</ns0:owlName>
+        <ns0:owlavailable_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns0:owlavailable_place>
+        <ns0:owlcapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns0:owlcapacity>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8125408E1</ns0:owlcoordonnees>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.664806E0</ns0:owlcoordonnees>
+        <ns0:owlid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5578</ns0:owlid>
+        <ns0:owlstatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En fonctionnement</ns0:owlstatus>
+      </rdf:Description>
+    </ns0:owlfields>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/7612c409a64e0434defb0d56508363c591be8afe">
+    <ns0:owlfields>
+      <rdf:Description>
+        <ns0:owlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Painlevé</ns0:owlName>
+        <ns0:owlavailable_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ns0:owlavailable_place>
+        <ns0:owlcapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ns0:owlcapacity>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8123506E1</ns0:owlcoordonnees>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.659762E0</ns0:owlcoordonnees>
+        <ns0:owlid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5580</ns0:owlid>
+        <ns0:owlstatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En fonctionnement</ns0:owlstatus>
+      </rdf:Description>
+    </ns0:owlfields>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/0cedc710c25c3651e1d950725c9633a9065fd871">
+    <ns0:owlfields>
+      <rdf:Description>
+        <ns0:owlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joliot-Curie - Chateaubriand</ns0:owlName>
+        <ns0:owlavailable_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ns0:owlavailable_place>
+        <ns0:owlcapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ns0:owlcapacity>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8124389E1</ns0:owlcoordonnees>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.651203E0</ns0:owlcoordonnees>
+        <ns0:owlid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5581</ns0:owlid>
+        <ns0:owlstatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En fonctionnement</ns0:owlstatus>
+      </rdf:Description>
+    </ns0:owlfields>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/a226d7f1b153bc8736f2e19a35456f03c3596a5d">
+    <ns0:owlfields>
+      <rdf:Description>
+        <ns0:owlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pont de Strasbourg</ns0:owlName>
+        <ns0:owlavailable_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns0:owlavailable_place>
+        <ns0:owlcapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns0:owlcapacity>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8109859E1</ns0:owlcoordonnees>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.656028E0</ns0:owlcoordonnees>
+        <ns0:owlid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5587</ns0:owlid>
+        <ns0:owlstatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En fonctionnement</ns0:owlstatus>
+      </rdf:Description>
+    </ns0:owlfields>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/55ceba2bfc7c45768bf4ab75aeff4ab78edc64bb">
+    <ns0:owlfields>
+      <rdf:Description>
+        <ns0:owlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mabilais</ns0:owlName>
+        <ns0:owlavailable_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns0:owlavailable_place>
+        <ns0:owlcapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ns0:owlcapacity>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8105086E1</ns0:owlcoordonnees>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.693069E0</ns0:owlcoordonnees>
+        <ns0:owlid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5591</ns0:owlid>
+        <ns0:owlstatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En fonctionnement</ns0:owlstatus>
+      </rdf:Description>
+    </ns0:owlfields>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.owl-ontologies.com/b476b4248e499552a1449cb8afe72cc68c83c060">
+    <ns0:owlfields>
+      <rdf:Description>
+        <ns0:owlName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Champs Libres</ns0:owlName>
+        <ns0:owlavailable_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ns0:owlavailable_place>
+        <ns0:owlcapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns0:owlcapacity>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.8105537E1</ns0:owlcoordonnees>
+        <ns0:owlcoordonnees rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.674328E0</ns0:owlcoordonnees>
+        <ns0:owlid rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5516</ns0:owlid>
+        <ns0:owlstatus rdf:datatype="http://www.w3.org/2001/XMLSchema#string">En fonctionnement</ns0:owlstatus>
+      </rdf:Description>
+    </ns0:owlfields>
+
+  </rdf:Description>
+
+  <rdf:Description rdf:nodeID="genid1">
+    <ns0:owlrecords rdf:resource="http://www.owl-ontologies.com/88a8871cd455b991aae541e2d60ebdab34840e3e"/>
+    <ns0:owlrecords rdf:resource="http://www.owl-ontologies.com/77cac0a1ecd7f2af56c8668b201afe2a20e1c6bb"/>
+    <ns0:owlrecords rdf:resource="http://www.owl-ontologies.com/bd0f83abcec2974fda4a9be7b78f4bfbb3af4b27"/>
+    <ns0:owlrecords rdf:resource="http://www.owl-ontologies.com/bc23b982c96a853bb90665c1d574e7d9c204daed"/>
+    <ns0:owlrecords rdf:resource="http://www.owl-ontologies.com/f31381b27f50bb4bc23672b3ea5cc7abfca309c3"/>
+    <ns0:owlrecords rdf:resource="http://www.owl-ontologies.com/7612c409a64e0434defb0d56508363c591be8afe"/>
+    <ns0:owlrecords rdf:resource="http://www.owl-ontologies.com/0cedc710c25c3651e1d950725c9633a9065fd871"/>
+    <ns0:owlrecords rdf:resource="http://www.owl-ontologies.com/a226d7f1b153bc8736f2e19a35456f03c3596a5d"/>
+    <ns0:owlrecords rdf:resource="http://www.owl-ontologies.com/55ceba2bfc7c45768bf4ab75aeff4ab78edc64bb"/>
+    <ns0:owlrecords rdf:resource="http://www.owl-ontologies.com/b476b4248e499552a1449cb8afe72cc68c83c060"/>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.owl-ontologies.com/unnamed.owl#"
+     xml:base="http://www.owl-ontologies.com/unnamed.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.owl-ontologies.com/unnamed.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#Name">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#available_place -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#available_place">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#capacity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#capacity">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#id">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#latitude">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#longitude">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#status -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#status">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#station -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#uneStation -->
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#MuséeBeaux-Arts">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>Musée Beaux-Arts</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5510</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8109601E1</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1.67408E0</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#PlaineDeBaud">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>Plaine de Baud</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5546</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8112461E1</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1.643674E0</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Brest-Verdun">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>Brest - Verdun</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5534</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8113009E1</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1.693264E0</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Marbeuf">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>Marbeuf</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5538</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8111749E1</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1.702077E0</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Gros-Chêne">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>Gros-Chêne</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5578</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8125408E1</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1.664806E0</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Painlevé">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>Painlevé</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5580</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8123506E1</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1.659762E0</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Joliot-Curie-Chateaubriand">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>Joliot-Curie - Chateaubriand</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5581</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8124389E1</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1.651203E0</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#PontDeStrasbourg">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>Pont de Strasbourg</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5587</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8109859E1</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1.656028E0</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#ChampsLibres">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>Champs Libres</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5516</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8105537E1</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1.674328E0</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Painlevé">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>Painlevé</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5580</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4.8123506E1</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1.659762E0</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+
+
+
+
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#124AubergeDeJeunesse">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>124 Auberge de jeunesse</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.568644</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.795621</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#111Campusd'Illkirch">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>111 Campus d'Illkirch</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.529616</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.734226</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#101Centre">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>101 Centre</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">101</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.578462</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.749776</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#102Centre2">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>102 Centre 2</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">A</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.578462</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.749776</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#103GareDeStrasbourg">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>103 Gare de Strasbourg</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.585082</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.735024</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#115HoenheimGare">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>115 Hoenheim Gare</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">115</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.628353</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.760103</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#112Hohwart">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>112 Hohwart</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">112</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.549190</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.740754</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#123Koenigshoffen">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>123 Koenigshoffen</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">A</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.579100</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.713481</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#114ParkingAusterlitz">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>114 Parking Austerlitz</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">114</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.578005</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.751863</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#113ParkingBroglie">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>113 Parking Broglie</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">113</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.585415</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.749395</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#109PlaceArnold">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>109 Place Arnold</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.584504</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.768772</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#108GareNord">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>108 Gare Nord</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">108</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.585678</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.733542</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#106GareSud">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>106 Gare Sud</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.584209</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.734519</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#116PlaceIslande">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>116 Place Islande</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">116</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.580314</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.776203</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#125PlaceDuMarchéNeudorf">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>125 Place du Marché Neudorf</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.565864</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.759242</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#110RobertsauBoecklin">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>110RobertsauBoecklin</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.598096</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.777902</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#105Rotonde">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>105 Rotonde</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.591639</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.725089</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#122SchiltigheimMairie">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>122 Schiltigheim Mairie</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.606759</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.749183</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#107Université">
+    <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#station"/>
+    <Name>107 Université</Name>
+    <available_place rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</available_place>
+    <capacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</capacity>
+    <id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">107</id>
+    <latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48.582023</latitude>
+    <longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7.766771</longitude>
+    <status>En fonctionnement</status>
+</owl:NamedIndividual>
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
